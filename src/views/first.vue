@@ -55,6 +55,9 @@ let colorBG = true;
   <button>
     <Router-Link to="vfor" class="btn">v-for</Router-Link>
   </button>
+  <button>
+    <Router-Link to="von" class="btn">v-on</Router-Link>
+  </button>
 </template>
 
 <!-- ---------------------------------------------------------------------------- -->
