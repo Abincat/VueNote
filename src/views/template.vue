@@ -15,8 +15,8 @@ import RightConp from "./template/right.vue";
     <NavConp></NavConp>
     <MainConp></MainConp>
     <div class="bottom">
-    <LeftConp></LeftConp>
-    <RightConp></RightConp>
+        <LeftConp></LeftConp>
+        <RightConp></RightConp>
     </div>
 </template>
 
