@@ -49,15 +49,13 @@ let colorBG = true;
   <hr />
   <h3>以下是其他頁面練習的按鈕</h3>
 
-  <button>
-    <Router-Link to="first" class="btn">first</Router-Link>
-  </button>
-  <button>
-    <Router-Link to="vfor" class="btn">v-for</Router-Link>
-  </button>
-  <button>
-    <Router-Link to="von" class="btn">v-on</Router-Link>
-  </button>
+  <Router-Link to="vfor" class="btn">v-for</Router-Link>
+
+  <Router-Link to="von" class="btn">v-on</Router-Link>
+
+  <Router-Link to="form" class="btn">form</Router-Link>
+
+  <Router-Link to="template" class="btn">template</Router-Link>
 </template>
 
 <!-- ---------------------------------------------------------------------------- -->
@@ -81,21 +79,6 @@ h1 {
   background-color: rgb(254, 243, 129);
 }
 
-button {
-  font-size: 48px;
-  color: hotpink;
-  background-color: wheat;
-  border-color: rgb(113, 8, 8);
-  padding: 10px;
-  margin: 20px;
-  border-radius: 10px;
-}
-
-button:hover {
-  box-shadow: 10px 5px 5px cornflowerblue;
-  cursor: pointer;
-}
-
 .btn {
   font-size: 48px;
   color: hotpink;
@@ -109,5 +92,6 @@ button:hover {
 
 .btn:hover {
   color: cornflowerblue;
+  box-shadow: 10px 5px 5px cornflowerblue;
 }
 </style>

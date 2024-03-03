@@ -17,5 +17,15 @@ const routes = [
     name: "von",
     component: () => import("../views/von.vue"),
   },
+  {
+    path: "/form",
+    name: "form",
+    component: () => import("../views/form.vue"),
+  },
+  {
+    path: "/template",
+    name: "template",
+    component: () => import("../views/template.vue"),
+  },
 ];
 export default routes;
