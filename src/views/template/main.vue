@@ -8,12 +8,15 @@ let change=function(){
   changeImg.value="changeImg"
 }
 
+defineProps(["subtitle"]);
+
 
 </script>
 
 <template>
   <div class="mainBlock">我是主視窗元件
     <span @click="change" >Click Me!!</span>
+    <p>{{ subtitle }}</p>
     <div class="changeBlock" :class="changeImg"></div>
   </div>
 </template>
