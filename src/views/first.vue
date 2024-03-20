@@ -56,6 +56,10 @@ let colorBG = true;
   <Router-Link to="form" class="btn">form</Router-Link>
 
   <Router-Link to="template" class="btn">template</Router-Link>
+
+  <Router-Link to="lifeweek" class="btn">lifeweek</Router-Link>
+
+  <Router-Link to="api" class="btn">api</Router-Link>
 </template>
 
 <!-- ---------------------------------------------------------------------------- -->

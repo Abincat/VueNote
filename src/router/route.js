@@ -27,5 +27,15 @@ const routes = [
     name: "template",
     component: () => import("../views/template.vue"),
   },
+  {
+    path: "/lifeweek",
+    name: "lifeweek",
+    component: () => import("../views/lifeweek.vue"),
+  },
+  {
+    path: "/api",
+    name: "api",
+    component: () => import("../views/api.vue"),
+  },
 ];
 export default routes;
