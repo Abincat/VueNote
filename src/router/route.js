@@ -3,7 +3,7 @@
 
 const routes = [
   {
-    path: "/first",
+    path: "/", //單條斜線就是代表首頁,不用另外再router-link
     name: "first",
     component: () => import("../views/first.vue"),
   },
@@ -36,6 +36,11 @@ const routes = [
     path: "/api",
     name: "api",
     component: () => import("../views/api.vue"),
+  },
+  {
+    path: "/pages",
+    name: "pages",
+    component: () => import("../views/pages.vue"),
   },
 ];
 export default routes;

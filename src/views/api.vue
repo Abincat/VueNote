@@ -33,7 +33,7 @@ onMounted(async function(){
 
 <!-- 那這邊用迴圈直接把每一筆資料印出來 -->
 <div v-else>
-    <div v-for="product in products">
+    <div v-for="product in products" :key="product">
         <div>產品名稱：{{ product.name }}</div>
         <div>產品介紹：{{ product.description }}</div>
         <div>售價：{{ product.price }}</div>

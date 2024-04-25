@@ -3,7 +3,7 @@
 <template>
   <header>
     <!-- router-link就是a標籤,用來進行連結的 -->
-    <router-link to="/first" class="title">返回首頁</router-link>
+    <router-link to="/" class="title">返回首頁</router-link>
   </header>
   <!-- router-view就是link的頁面 -->
   <router-view></router-view>
